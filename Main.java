@@ -1,5 +1,7 @@
 import java.util.Random;
-public static void fight(Samurai attacker, Samurai defender, int textAttack, boolean isPowerfull) {
+public class Main {
+
+    public static void fight(Samurai attacker, Samurai defender, int textAttack, boolean isPowerfull) {
 
         double blow = attacker.attack(); //δυνατό χτύπημα
         if(!isPowerfull) blow/=2;
@@ -184,3 +186,4 @@ public static void fight(Samurai attacker, Samurai defender, int textAttack, boo
 
         System.out.println("Τα ronins είναι νεκροί... Δόξα στα ronins !");
     }
+}
